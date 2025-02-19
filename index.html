@@ -21,7 +21,7 @@
 
         h1 {
             font-size: 3em;
-            color: #333; /* 調深標題顏色 */
+            color: #4f4f4f;
             margin-bottom: 30px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
@@ -33,43 +33,96 @@
 
         li {
             margin: 15px 0;
-            display: inline-block;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s, transform 0.3s;
-            max-width: 300px; /* 限制最大寬度 */
-        }
-
-        li:hover {
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-            transform: scale(1.05);
         }
 
         a {
-            display: block; /* 讓整個 li 都可點擊 */
             font-size: 1.2em;
             color: #ff4b7a;
             text-decoration: none;
-            padding: 15px 20px;
+            padding: 10px 20px;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
         a:hover {
             background-color: #ff8fb0;
+            transform: translateY(-5px);
         }
+
+        li {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 10px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        li:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .region-title {
+            font-size: 2em;
+            margin-top: 40px;
+            color: #4f4f4f;
+        }
+
     </style>
 </head>
 <body>
-    <h1>高成鮮花店專業送花</h1> 
-    <ul>
-        <li><a href="https://www.google.com/maps?q=82644高雄市梓官區赤崁北路52號" target="_blank">梓官赤崁清進宮(清水祖師)</a></li>
-        <li><a href="https://www.google.com/maps?q=826高雄市梓官區赤崁北路127巷3號" target="_blank">赤崁地基主</a></li>
-        <li><a href="https://www.google.com/maps?q=826高雄市梓官區赤崁北路276號" target="_blank">連全興國際有限公司</a></li>
-        <li><a href="https://www.google.com/maps?q=826高雄市梓官區新庄路1-23號" target="_blank">肉鬆工廠(新庄路1-23號)</a></li>
-        <li><a href="https://www.google.com/maps?q=827高雄市彌陀區新庄路9號" target="_blank">新庄麵店的對面工廠</a></li>
-    </ul>
+    <h1>高成鮮花店專業送花</h1>
+
+    <!-- 赤崁北路區域 -->
+    <div class="region">
+        <h2 class="region-title">赤崁北路</h2>
+        <ul>
+            <li><a href="https://www.google.com/maps?q=82644高雄市梓官區赤崁北路52號" target="_blank">梓官赤崁清進宮(清水祖師)</a></li>
+            <li><a href="https://www.google.com/maps?q=826高雄市梓官區赤崁北路127巷3號" target="_blank">赤崁地基主</a></li>
+            <li><a href="https://www.google.com/maps?q=826高雄市梓官區赤崁北路276號" target="_blank">連全興國際有限公司</a></li>
+        </ul>
+    </div>
+
+    <!-- 赤崁東路區域 -->
+    <div class="region">
+        <h2 class="region-title">赤崁東路</h2>
+        <ul>
+            <!-- 這裡可以添加赤崁東路相關的連結 -->
+        </ul>
+    </div>
+
+    <!-- 赤崁南路區域 -->
+    <div class="region">
+        <h2 class="region-title">赤崁南路</h2>
+        <ul>
+            <!-- 這裡可以添加赤崁南路相關的連結 -->
+        </ul>
+    </div>
+
+    <!-- 赤崁西路區域 -->
+    <div class="region">
+        <h2 class="region-title">赤崁西路</h2>
+        <ul>
+            <!-- 這裡可以添加赤崁西路相關的連結 -->
+        </ul>
+    </div>
+
+    <!-- 嘉展路區域 -->
+    <div class="region">
+        <h2 class="region-title">嘉展路</h2>
+        <ul>
+            <!-- 這裡可以添加嘉展路相關的連結 -->
+        </ul>
+    </div>
+
+    <!-- 中正路區域 -->
+    <div class="region">
+        <h2 class="region-title">中正路</h2>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/4P3SVkgNLaYfnUPZ7" target="_blank">肉鬆工廠(新庄路1-23號)</a></li>
+            <li><a href="https://www.google.com/maps?q=827高雄市彌陀區新庄路9號" target="_blank">新庄麵店的對面工廠</a></li>
+        </ul>
+    </div>
+
 </body>
 </html>
