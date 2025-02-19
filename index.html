@@ -8,7 +8,7 @@
         /* 設定整體頁面 */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #e8f7f3; /* 淡綠色背景，帶來自然舒適感 */
             margin: 0;
             padding: 0;
             display: flex;
@@ -48,6 +48,7 @@
             border-radius: 12px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
             transition: box-shadow 0.3s ease;
+            text-align: left; /* 讓內容左對齊 */
         }
 
         /* 滑鼠懸停時卡片陰影效果 */
@@ -59,6 +60,7 @@
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         li {
@@ -68,12 +70,14 @@
         /* 連結設計 */
         a {
             font-size: 1.1em;
-            color: #ff5c8d;
+            color: #ff5c8d; /* 使用柔和的粉紅色作為主要顏色 */
             text-decoration: none;
             padding: 12px 24px;
             border-radius: 6px;
             background-color: #fff;
             border: 2px solid #ff5c8d;
+            display: inline-block; /* 使連結像按鈕 */
+            margin-bottom: 12px; /* 每個按鈕之間添加間距 */
             transition: all 0.3s ease;
         }
 
